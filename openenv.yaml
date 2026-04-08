@@ -1,0 +1,14 @@
+name: dataset-quality-audit
+version: "0.1.0"
+description: >
+  An RL environment where an agent audits a synthetic tabular dataset
+  for planted quality issues (nulls, type errors, outliers) under a
+  limited query budget.
+tasks:
+  - easy
+  - medium
+  - hard
+author: ""
+server:
+  port: 8000
+  dockerfile: server/Dockerfile
